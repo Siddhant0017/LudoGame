@@ -23,3 +23,34 @@ Retrieve the current game state.
 2. Java 8 or higher
 3. Maven
 4. Spring Boot
+
+#Setup
+1. Clone the repository
+git clone https://github.com/your-username/ludo-game.git
+cd ludo-game
+2. Build the project
+mvn clean install
+3. Run the application
+mvn spring-boot:run
+4. Access the application
+The application will be running at http://localhost:8080.
+
+#Testing the API with Postman
+##Setup Postman
+1. Download and install Postman from Postman website.
+2. Open Postman and create a new workspace (optional).
+##API Endpoints
+1. Create a Game
+   Request:
+
+1. Method: POST
+2. URL: http://localhost:8080/game/createGame
+
+Steps:
+
+1. Open Postman and create a new request.
+2. Set the request type to POST.
+3. Enter the URL: http://localhost:8080/game/createGame.
+4. Click Send.
+5. You should receive a response with the gameId.
+
