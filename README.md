@@ -19,7 +19,7 @@ Retrieve the current game state.
 7. Game State Management: The game state is stored and managed in-memory using a HashMap.
 
 #Getting Started
-Prerequisites
-Java 8 or higher
-Maven
-Spring Boot
+ Prerequisites
+ Java 8 or higher
+ Maven
+ Spring Boot
