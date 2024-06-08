@@ -93,10 +93,6 @@ This is a simple implementation of the classic Ludo game using Spring Boot. The 
 6. Click `Send`.
 7. You should receive a response confirming the player has joined the game.
 
-**Example Response**:
-```json
-"Player joined the game"
-```
 
 #### Roll Dice
 
@@ -118,10 +114,6 @@ This is a simple implementation of the classic Ludo game using Spring Boot. The 
 6. Click `Send`.
 7. You should receive a response with the dice value.
 
-**Example Response**:
-```json
-5
-```
 
 #### Move Piece
 
@@ -147,11 +139,6 @@ This is a simple implementation of the classic Ludo game using Spring Boot. The 
 6. Click `Send`.
 7. You should receive a response confirming the piece move.
 
-**Example Response**:
-```json
-"Piece moved successfully"
-```
-
 #### Get Game State
 
 **Request**:
@@ -172,7 +159,7 @@ This is a simple implementation of the classic Ludo game using Spring Boot. The 
 **Example Response**:
 ```json
 {
-  "gameId": "c4d8e5b7-7e85-4b3a-8055-3c4f6f3d4f32",
+  "gameId": "-----",
   "players": ["Player1"]
 }
 ```
@@ -188,4 +175,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-This README provides an overview of the project, setup instructions, API documentation, and detailed steps for testing the APIs using Postman.
